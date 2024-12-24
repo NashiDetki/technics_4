@@ -1,0 +1,42 @@
+.page{
+    display:flex;
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6%;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: aqua;
+    font-family: 'Calibri';
+}
+.viewer__image{
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.description{
+    width: 500px;
+}
+.viewer{
+    width: 500px;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.viewer__list{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    text-decoration-line: underline;
+
+    padding: 0;
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 90px;
+}
+.viewer__list_element{
+    font-weight: bold;
+    cursor: pointer;
+
+
+}
