@@ -33,9 +33,7 @@ console.log(description__subtitle)
 function outConsole(name){
     console.log('metro', name)
 }
-outConsole('royal');
-outConsole('lednik');
-outConsole('43.986k');
+
 
 link_1.addEventListener("click", function(){
     setImage('./img/sj100 air.jpg')
@@ -50,10 +48,10 @@ link_4.addEventListener("click", function(){
     setImage('./img/sj100 top.jpg')
 })
 
-image.src = "./img/sj100 front.jpg";
+
 
 function setImage(link_image){
     image.src = link_image
 }
 
-setImage("./img/sj100 front.jpg")
+
