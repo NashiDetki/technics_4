@@ -28,9 +28,7 @@ console.log(description__title)
 const description__subtitle = document.querySelector('.description__subtitle')
 console.log(description__subtitle)
 
-description__subtitle.innerText = 'Какой-то самолет'
 
-description__title.innerText = 'Новый самолет'
 
 function outConsole(name){
     console.log('metro', name)
